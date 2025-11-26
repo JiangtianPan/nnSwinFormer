@@ -31,5 +31,6 @@ pip-log.txt
 *.zip
 *.tar.gz
 *.npy
+*.npy.h5
 *.npz
 *.nii.gz
