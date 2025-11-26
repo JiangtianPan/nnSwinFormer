@@ -1,0 +1,96 @@
+[20:18:05.907] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=False, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse', z_spacing=1, is_pretrain=True)
+[20:18:05.907] best_model.pth
+[20:18:50.974] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=False, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse', z_spacing=1, is_pretrain=True)
+[20:18:50.975] best_model.pth
+[20:18:50.975] 12 test iterations per epoch
+[20:23:17.962] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=False, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:23:17.962] best_model.pth
+[20:23:17.971] 12 test iterations per epoch
+[20:26:27.868] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=False, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:26:27.868] best_model.pth
+[20:26:27.868] 12 test iterations per epoch
+[20:29:21.108] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=False, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:29:21.108] best_model.pth
+[20:29:21.108] 12 test iterations per epoch
+[20:30:59.090] idx 0 case case0008 mean_dice 0.546886 mean_hd95 18.724007
+[20:31:58.932] idx 1 case case0022 mean_dice 0.861215 mean_hd95 3.497197
+[20:33:02.515] idx 2 case case0038 mean_dice 0.790241 mean_hd95 7.974543
+[20:35:05.888] idx 3 case case0036 mean_dice 0.843482 mean_hd95 7.027469
+[20:36:44.192] idx 4 case case0032 mean_dice 0.842683 mean_hd95 6.060299
+[20:38:10.399] idx 5 case case0002 mean_dice 0.820222 mean_hd95 9.371769
+[20:39:08.112] idx 6 case case0029 mean_dice 0.623678 mean_hd95 62.335278
+[20:41:10.772] idx 7 case case0003 mean_dice 0.594305 mean_hd95 86.312400
+[20:42:38.619] idx 8 case case0001 mean_dice 0.730453 mean_hd95 19.223630
+[20:43:59.144] idx 9 case case0004 mean_dice 0.686429 mean_hd95 9.185487
+[20:44:55.612] idx 10 case case0025 mean_dice 0.710079 mean_hd95 7.578896
+[20:45:47.520] idx 11 case case0035 mean_dice 0.842773 mean_hd95 3.987632
+[20:45:47.548] Mean class 1 mean_dice 0.815452 mean_hd95 7.705711
+[20:45:47.548] Mean class 2 mean_dice 0.657705 mean_hd95 30.100499
+[20:45:47.548] Mean class 3 mean_dice 0.774464 mean_hd95 28.359844
+[20:45:47.548] Mean class 4 mean_dice 0.676476 mean_hd95 32.019648
+[20:45:47.548] Mean class 5 mean_dice 0.937286 mean_hd95 9.524922
+[20:45:47.548] Mean class 6 mean_dice 0.482322 mean_hd95 19.554375
+[20:45:47.548] Mean class 7 mean_dice 0.872238 mean_hd95 18.032067
+[20:45:47.549] Mean class 8 mean_dice 0.712354 mean_hd95 15.555338
+[20:45:47.549] Testing performance in best val model: mean_dice : 0.741037 mean_hd95 : 20.106551
+[20:51:18.420] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:51:18.420] best_model.pth
+[20:51:18.421] 12 test iterations per epoch
+[20:52:06.860] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:52:06.861] best_model.pth
+[20:52:06.861] 12 test iterations per epoch
+[20:53:38.268] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:53:38.268] best_model.pth
+[20:55:59.587] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:55:59.587] best_model.pth
+[20:56:06.955] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[20:56:06.955] best_model.pth
+[20:56:06.955] 12 test iterations per epoch
+[20:57:39.133] idx 0 case case0008 mean_dice 0.546886 mean_hd95 18.724007
+[20:58:35.163] idx 1 case case0022 mean_dice 0.861215 mean_hd95 3.497197
+[20:59:35.985] idx 2 case case0038 mean_dice 0.790241 mean_hd95 7.974543
+[21:01:37.788] idx 3 case case0036 mean_dice 0.843482 mean_hd95 7.027469
+[21:03:09.885] idx 4 case case0032 mean_dice 0.842683 mean_hd95 6.060299
+[21:04:37.812] idx 5 case case0002 mean_dice 0.820222 mean_hd95 9.371769
+[21:05:38.682] idx 6 case case0029 mean_dice 0.623678 mean_hd95 62.335278
+[21:07:40.676] idx 7 case case0003 mean_dice 0.594305 mean_hd95 86.312400
+[21:09:11.166] idx 8 case case0001 mean_dice 0.730453 mean_hd95 19.223630
+[21:10:37.227] idx 9 case case0004 mean_dice 0.686429 mean_hd95 9.185487
+[21:11:31.262] idx 10 case case0025 mean_dice 0.710079 mean_hd95 7.578896
+[21:12:21.339] idx 11 case case0035 mean_dice 0.842773 mean_hd95 3.987632
+[21:12:21.379] Mean class 1 mean_dice 0.815452 mean_hd95 7.705711
+[21:12:21.380] Mean class 2 mean_dice 0.657705 mean_hd95 30.100499
+[21:12:21.380] Mean class 3 mean_dice 0.774464 mean_hd95 28.359844
+[21:12:21.380] Mean class 4 mean_dice 0.676476 mean_hd95 32.019648
+[21:12:21.380] Mean class 5 mean_dice 0.937286 mean_hd95 9.524922
+[21:12:21.380] Mean class 6 mean_dice 0.482322 mean_hd95 19.554375
+[21:12:21.380] Mean class 7 mean_dice 0.872238 mean_hd95 18.032067
+[21:12:21.380] Mean class 8 mean_dice 0.712354 mean_hd95 15.555338
+[21:12:21.380] Testing performance in best val model: mean_dice : 0.741037 mean_hd95 : 20.106551
+[23:29:18.885] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[23:29:18.885] best_model.pth
+[23:29:18.886] 12 test iterations per epoch
+[23:30:43.540] Namespace(root_path='./data/project_TransUNet/data/Synapse', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='./data/project_TransUNet/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[23:30:43.540] best_model.pth
+[23:30:43.540] 12 test iterations per epoch
+[23:32:25.986] idx 0 case case0008 mean_dice 0.546886 mean_hd95 18.724007
+[23:33:26.589] idx 1 case case0022 mean_dice 0.861215 mean_hd95 3.497197
+[23:34:33.477] idx 2 case case0038 mean_dice 0.790241 mean_hd95 7.974543
+[23:36:40.308] idx 3 case case0036 mean_dice 0.843482 mean_hd95 7.027469
+[23:38:11.870] idx 4 case case0032 mean_dice 0.842683 mean_hd95 6.060299
+[23:39:38.520] idx 5 case case0002 mean_dice 0.820222 mean_hd95 9.371769
+[23:40:41.357] idx 6 case case0029 mean_dice 0.623678 mean_hd95 62.335278
+[23:42:51.383] idx 7 case case0003 mean_dice 0.594305 mean_hd95 86.312400
+[23:44:32.721] idx 8 case case0001 mean_dice 0.730453 mean_hd95 19.223630
+[23:46:05.292] idx 9 case case0004 mean_dice 0.686429 mean_hd95 9.185487
+[23:47:02.341] idx 10 case case0025 mean_dice 0.710079 mean_hd95 7.578896
+[23:47:57.903] idx 11 case case0035 mean_dice 0.842773 mean_hd95 3.987632
+[23:47:57.936] Mean class 1 mean_dice 0.815452 mean_hd95 7.705711
+[23:47:57.936] Mean class 2 mean_dice 0.657705 mean_hd95 30.100499
+[23:47:57.936] Mean class 3 mean_dice 0.774464 mean_hd95 28.359844
+[23:47:57.937] Mean class 4 mean_dice 0.676476 mean_hd95 32.019648
+[23:47:57.937] Mean class 5 mean_dice 0.937286 mean_hd95 9.524922
+[23:47:57.937] Mean class 6 mean_dice 0.482322 mean_hd95 19.554375
+[23:47:57.937] Mean class 7 mean_dice 0.872238 mean_hd95 18.032067
+[23:47:57.937] Mean class 8 mean_dice 0.712354 mean_hd95 15.555338
+[23:47:57.937] Testing performance in best val model: mean_dice : 0.741037 mean_hd95 : 20.106551
